@@ -1,0 +1,75 @@
+body{
+  background-color: rgb(35, 35, 35);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.game-name{
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.options-btn{
+  display: grid;
+  grid-template-columns: 130px 130px 130px;
+  padding-bottom: 20px;
+}
+.rock-button,.paper-button,.scissor-button{
+  background-color: rgb(35, 35, 35) ;
+  height: 120px;
+  width: 120px;
+  border: 3px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 500ms;
+}
+.rock-button:hover, 
+.paper-button:hover, 
+.scissor-button:hover {
+  height: 130px;
+  width: 130px;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  transition: 100ms;
+}
+.rock-button:active, 
+.paper-button:active, 
+.scissor-button:active {
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+img{
+  height: 50px
+}
+.score{
+  margin-top: 50px;
+  color: white;
+}
+.reset-btn{
+  border: 0px;
+  padding: 8px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.reset-btn:hover{
+  padding: 10px 22px;
+  transition: 100ms;
+}
+.reset-btn:active{
+  opacity: 80%;
+  padding: 8px 20px;
+  transition: 100ms;
+}
+.result{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.moves{
+  display: inline;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 100ms;
+
+}
+.moves-img{
+  transition: 100ms;
+  
+}
