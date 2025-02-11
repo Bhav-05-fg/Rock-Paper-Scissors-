@@ -36,8 +36,8 @@ function playGame(playerMove) {
   // Update the move display with images
   movesDisplay.innerHTML = `
     <p class="moves">You</p>
-    <img src="img/${playerMove}.png" alt="${playerMove}" class="move-img">
-    <img src="img/${compMove}.png" alt="${compMove}" class="move-img">
+    <img src="${playerMove}.png" alt="${playerMove}" class="move-img">
+    <img src="${compMove}.png" alt="${compMove}" class="move-img">
     <p class="moves">Computer</p>
   `;
 
